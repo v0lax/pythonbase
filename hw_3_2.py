@@ -15,6 +15,7 @@ Enter the sequence number of the Fibonacci number: ''')
     exit()
 
 def get_fibonachi(num):
+    '''The get_fibonachi(n) function calculates the nth element of the Fibonacci series.'''
     err_msg_invalid = 'Invalid data or negative number'
     num = num.replace(' ', '')
 
@@ -32,7 +33,7 @@ def get_fibonachi(num):
     # Initial initialization
     x1 = 0
     x2 = 1
-
+    current = 0
     _ = 2
 
     while _ <= num:

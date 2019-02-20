@@ -28,6 +28,7 @@ if num == 1:
 # Initial initialization
 x1 = 0
 x2 = 1
+current = 0
 
 # "for"
 for _ in range(2, num + 1):
@@ -43,6 +44,7 @@ print('\nThe element [{}] of the Fibonacci number series = {} (using "for")'.for
 x1 = 0
 x2 = 1
 _ = 2
+current = 0
 
 while _ <= num:
     current = x1 + x2
