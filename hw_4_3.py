@@ -95,7 +95,7 @@ Returns:
         if ord(x) == 10:
             lines = chars_stat[x]
         elif x.isdigit():
-            digits += 1
+            digits += chars_stat[x]
 
     return words_stat, chars_stat, digits, lines
 
